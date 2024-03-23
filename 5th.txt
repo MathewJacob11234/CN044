@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club/Student Organization Events</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: hwb(22 0% 0%);
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        .event {
+            background-color: rgb(254, 254, 254);
+            border: 3px solid hwb(25 0% 0%);
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 30px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #ffffff;
+            color: #000000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            button-align: center;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .button-container {
+            text-align: center; /* Center-align the content */
+            background-color: hsl(0, 0%, 100%);
+        }
+        .button-container button {
+            /* Add any button-specific styles here */
+        }
+        .button-container button {
+            border: none;
+            background: none;
+            cursor: pointer;
+            
+        }
+        .button-left {
+            float: left; /* Float the left button to the left */
+        }
+    
+    </style>
+</head>
+<body>
+    <hr>
+    <div class="button-container">
+        <button class="button-left" onclick="openHTMLFile('three_l.html')">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAP4AAADGCAMAAADFYc2jAAAAb1BMVEUAAAD///80NDSoqKj5+fnX19e/v7+Ghobd3d1dXV3T09Pq6urOzs6Li4v29valpaU8PDwSEhI/Pz+2traAgIBXV1fExMR0dHQjIyNnZ2fj4+MICAhGRkZubm6SkpK7u7scHBybm5tMTEwhISF6eno4IUryAAADkUlEQVR4nO2dXXeqMBBFB/lWECqKFlusLf//N95E5AJC+yZnLc/spz6erRWSTDIRZ4jvNvmbvCxveeNGI2Hp//SuL2zec8q8Of0MnWs5son+ZofOtCR5NdZP0IGWphzqB+g0yxP0+j46CwK/09+ik2DY3vVjdBAM761+ic6BIrnpr9AxUHxYfdovX2Rt9N/RIXA0Rh+dAYkjlO/8jkoKdAQkpdToCEgyCdERkKTc+qH5AIgJ5YqOgOQqhFP9nsC8+oipqEd9ZzPobdAhcOyNPvGo17fz/W90ChS3+b6zRsdAsW7X+j7ROTA096VOj6K298jp/zp/hI6CoOqrPIQ/f39Y46Mb+1XjCq9HVeuIuxJ/X98vv9ChluJUzu3ucIoPdLAlOATzm1vsJoegPuSrlyU/1MFmJDzWp0P1mVF9ZlSfGdVnRvWZUX1mVJ8Z1WdG9ZlRfWZUnxnVZ0b1mVF9ZlSfGdVnRvWZUX1mVJ8Z1WdG9Zl51N/4gfuyBP7mL/3yiN5u/XyOl1/0ac5yuzP6CdFxrp/kUZ+siUM61qc6yWOJh/oHdJrliXt9yjPsYadP2rmobPVJmzXKudXfo3OguFp91i/f4Bl9msHeFNfo5+gQOL4dIf7ft+0KiVt1iqy5e3YV3A3ram79kF2ful1hKi46AhJX6O5lGJJwD3s8cajuJBnzYcb8RBfSPOJyT3i3drmD9tWX3lZ7PHQMFJ4uddrlXoLK5pS9ljm0yNVC9vivJwXuH3Sk5ThNCtwOz32E52J2d4fjBAR39BzLofFka1NSoDcgPY8i+XNrEx+qz4zqM6P6zKg+M6rPjOozo/rMqD4zqs+M6jOj+syoPjOqz4zqM6P6zKg+M6rPjOozo/rMqD4zqs/MwxXklzTeoS8Kfx67OL38fgV5QXGg83v+AvqApmHfqZzoe1SneWJvrF+hAy1NNdRfo9Msj9/r0333lqrT977QURCcOv1PdBIM+1aftntHdNOnbdl2sPqET/2OyOhTnl5vCY0+OgOQL0cidAYkGyHtXNFSSo2OgCTjbliXcuuT9+sLuX/7V7mgIyC5iI+OgCSiHvUZedbZvuVo9Gmn+yIJ9Xx/dVvuoG1SXrZrfYT92izxfamTtFvntlvnp3z3+32VJ0BnWZ5gWOOje/wl4wpvRfX623WbHPr6PtEtFdnc7o5tfUbnWoKfzHPm9O0rIGvyF97k8bZq3Ggk/A9VZnPaV6QKvQAAAABJRU5ErkJggg==" alt="Left Button Image" height="30">
+            </button>
+        
+    </div>
+
+    <script>
+        function openHTMLFile(filePath) {
+            window.location.href = filePath;
+        }
+    </script>
+    <br>
+    <br>
+    <br>
+
+    <header>
+        <img src="img.jpg" height="100"/>
+        <h1>LPU CLUBS</h1>
+        <button onclick="window.location.href = 'club_events.html';">CLUB EVENTS</button>
+        <button onclick="window.location.href = 'cul_events.html';">CULTURAL EVENTS</button>
+       <br>
+            <br>
+        <div class="button-container">
+            <button onclick="openURL('https://docs.google.com/forms/d/e/1FAIpQLSdzwWTHKFRSWR4ThUgKgI2N6QGmvMPZ_SBctMnfV5sccAwJwg/viewform?usp=sf_link')">JOIN EVENTS</button>
+        </div>
+    
+        <script>
+            function openURL(url) {
+                window.open(url, '_blank');
+            }
+        </script>
+    
+    
+    </header>
+    
+    <hr>
+        
+
+    
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DfAiGEa5UdI?si=uhl84hlVz67E0pr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/D8fa8W5p7ZQ?si=5c5LhMrBrI26UcTX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+</html>
+
+    <div class="container">
+        <h2>Upcoming Events</h2>
+        <div class="event">
+            <h3>BASKETBALL</h3>
+            <p>Date: <span class="event-date">02/04/2024</span></p>
+            <p>Time: <span class="event-time">12:00 PM</span></p>
+            <p>Location: <span class="event-location">INDOOR STADIUM</span></p>
+            <p>Description: <span class="event-description">Description: team of 7 will play against eachother and winner gets 10000rs cash prize</span></p>
+        </div>
+        <div class="event">
+            <h3>FOOTBALL</h3>
+            <p>Date: <span class="event-date">02/04/2024</span></p>
+            <p>Time: <span class="event-time">12:00 PM</span></p>
+            <p>Location: <span class="event-location">OPEN GROUND NEAR BH2</span></p>
+            <p>Description: <span class="event-description">Description: A friendly match between two teams of 11 players each. The winning team receives a trophy and bragging rights!</span></p>
+        </div>
+        <div class="event">
+            <h3>TENNIS</h3>
+            <p>Date: <span class="event-date">10/04/2024</span></p>
+            <p>Time: <span class="event-time">10:30 AM</span></p>
+            <p>Location: <span class="event-location">Tennis Courts</span></p>
+            <p>Description: <span class="event-description">Description: Singles and doubles matches for players of all skill levels. Come enjoy a day of friendly competition and camaraderie!</span></p>
+        </div>
+        <div class="event">
+            <h3>CRICKET</h3>
+            <p>Date: <span class="event-date">15/04/2024</span></p>
+            <p>Time: <span class="event-time">2:00 PM</span></p>
+            <p>Location: <span class="event-location">Cricket Ground</span></p>
+            <p>Description: <span class="event-description">Description: Exciting Twenty20 cricket match between two local teams. Refreshments and snacks will be available for spectators.</span></p>
+        </div>
+        <div class="event">
+            <h3>VOLLEYBALL</h3>
+            <p>Date: <span class="event-date">20/04/2024</span></p>
+            <p>Time: <span class="event-time">11:00 AM</span></p>
+            <p>Location: <span class="event-location">Beach Volleyball Court</span></p>
+            <p>Description: <span class="event-description">Description: Beach volleyball tournament featuring teams of 4 players each. Enjoy the sun, sand, and competitive spirit!</span></p>
+        </div>
+        <h2>More events will be added soon...</h2>
+        <!-- Add more events here as needed -->
+    </div>
+    
+</body>
+</html>

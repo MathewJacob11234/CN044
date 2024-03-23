@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .photo-container {
+            background-color: orange; /* Set background color to orange */
+            padding: 20px; /* Add padding */
+            text-align: left; /* Align photo to the left */
+            margin-bottom: 20px; /* Add some space below the photo container */
+        }
+        .photo-container img {
+            max-width: 400px; /* Adjust the max width of the image as needed */
+        }
+        .button-container {
+            text-align: left; /* Align buttons to the left */
+        }
+        .button-container button {
+            border: none;
+            background: none;
+            cursor: pointer;
+            padding: 15px 30px; /* Increase button size */
+            margin: 10px 0; /* Add space between buttons */
+            display: block; /* Display buttons as block elements to stack vertically */
+            font-weight: bold; /* Set button text to bold */
+            font-size: 18px; /* Set button text size */
+        }
+        .button-container {
+            text-align: center; /* Center-align the content */
+        }
+        .button-container button {
+            border: none;
+            background: none;
+            cursor: pointer;
+        }
+        .button-container button {
+            border: none;
+            background: none;
+            cursor: pointer;
+            
+        }
+        .button-left {
+            float: left; /* Float the left button to the left */
+        }
+    </style>
+</head>
+<body>
+    
+        <button class="button-left" onclick="openHTMLFile('three_l.html')">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAP4AAADGCAMAAADFYc2jAAAAb1BMVEUAAAD///80NDSoqKj5+fnX19e/v7+Ghobd3d1dXV3T09Pq6urOzs6Li4v29valpaU8PDwSEhI/Pz+2traAgIBXV1fExMR0dHQjIyNnZ2fj4+MICAhGRkZubm6SkpK7u7scHBybm5tMTEwhISF6eno4IUryAAADkUlEQVR4nO2dXXeqMBBFB/lWECqKFlusLf//N95E5AJC+yZnLc/spz6erRWSTDIRZ4jvNvmbvCxveeNGI2Hp//SuL2zec8q8Of0MnWs5son+ZofOtCR5NdZP0IGWphzqB+g0yxP0+j46CwK/09+ik2DY3vVjdBAM761+ic6BIrnpr9AxUHxYfdovX2Rt9N/RIXA0Rh+dAYkjlO/8jkoKdAQkpdToCEgyCdERkKTc+qH5AIgJ5YqOgOQqhFP9nsC8+oipqEd9ZzPobdAhcOyNPvGo17fz/W90ChS3+b6zRsdAsW7X+j7ROTA096VOj6K298jp/zp/hI6CoOqrPIQ/f39Y46Mb+1XjCq9HVeuIuxJ/X98vv9ChluJUzu3ucIoPdLAlOATzm1vsJoegPuSrlyU/1MFmJDzWp0P1mVF9ZlSfGdVnRvWZUX1mVJ8Z1WdG9ZlRfWZUnxnVZ0b1mVF9ZlSfGdVnRvWZUX1mVJ8Z1WdG9Zl51N/4gfuyBP7mL/3yiN5u/XyOl1/0ac5yuzP6CdFxrp/kUZ+siUM61qc6yWOJh/oHdJrliXt9yjPsYadP2rmobPVJmzXKudXfo3OguFp91i/f4Bl9msHeFNfo5+gQOL4dIf7ft+0KiVt1iqy5e3YV3A3ram79kF2ful1hKi46AhJX6O5lGJJwD3s8cajuJBnzYcb8RBfSPOJyT3i3drmD9tWX3lZ7PHQMFJ4uddrlXoLK5pS9ljm0yNVC9vivJwXuH3Sk5ThNCtwOz32E52J2d4fjBAR39BzLofFka1NSoDcgPY8i+XNrEx+qz4zqM6P6zKg+M6rPjOozo/rMqD4zqs+M6jOj+syoPjOqz4zqM6P6zKg+M6rPjOozo/rMqD4zqs/MwxXklzTeoS8Kfx67OL38fgV5QXGg83v+AvqApmHfqZzoe1SneWJvrF+hAy1NNdRfo9Msj9/r0333lqrT977QURCcOv1PdBIM+1aftntHdNOnbdl2sPqET/2OyOhTnl5vCY0+OgOQL0cidAYkGyHtXNFSSo2OgCTjbliXcuuT9+sLuX/7V7mgIyC5iI+OgCSiHvUZedbZvuVo9Gmn+yIJ9Xx/dVvuoG1SXrZrfYT92izxfamTtFvntlvnp3z3+32VJ0BnWZ5gWOOje/wl4wpvRfX623WbHPr6PtEtFdnc7o5tfUbnWoKfzHPm9O0rIGvyF97k8bZq3Ggk/A9VZnPaV6QKvQAAAABJRU5ErkJggg==" alt="Left Button Image" height="30">
+            </button>
+            <br>
+            <br>
+        
+    </div>
+
+    <script>
+        function openHTMLFile(filePath) {
+            window.location.href = filePath;
+        }
+    </script>
+    <div class="container">
+        <div class="photo-container">
+            <img src="logo.jpg" alt="Photo">
+        </div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DfAiGEa5UdI?si=uhl84hlVz67E0pr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p>Sports At LPU | Lovely Professional University | Baseball | MLB</p>
+    <img src="https://qph.cf2.quoracdn.net/main-qimg-ebabda36b4fddb685d64ccfd5a969461-lq"/>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/D8fa8W5p7ZQ?si=5c5LhMrBrI26UcTX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p>Golden Boy & LPU Student Neeraj Chopra At LPU!</p>
+    <img src="https://www.lpu.in/campus_life/images/sports/archery-recurve.jpg"/>
+</body>
+</html>
